@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 6,
+	"VersionName": "6",
+	"FriendlyName": "Google Speech Kit",
+	"Description": "Google's Text-To-Speech and Speech-To-Text services integration",
+	"Category": "Runtime",
+	"CreatedBy": "Ilgar Lunin",
+	"CreatedByURL": "https://www.facebook.com/dr.conors",
+	"DocsURL": "https://github.com/IlgarLunin/UE4GoogleSpeechKit-docs",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8013d15afdea431899416cbc88dce540",
+	"SupportURL": "https://discord.gg/Tkf7xe2",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GoogleSpeechKit",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		}
+	]
+}
